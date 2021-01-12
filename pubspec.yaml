@@ -1,0 +1,17 @@
+name: broken_image_crash
+description: Broken image crash example.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+   assets:
+     - broken_image.jpeg
